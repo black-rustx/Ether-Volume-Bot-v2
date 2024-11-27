@@ -1,0 +1,30 @@
+{
+  "name": "zygo-vol-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/figlet": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "figlet": "^1.8.0",
+    "fs": "^0.0.1-security",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
